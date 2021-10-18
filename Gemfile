@@ -8,7 +8,15 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
+gem 'pg'
 gem 'puma', '~> 5.0'
+gem 'devise'
+gem  'milia'
+gem 'aws-sdk'
+gem 'stripe'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+gem 'bootstrap-datepicker-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
